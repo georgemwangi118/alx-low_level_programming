@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the the sizes of various data types
+ * main - prints the sizes of various data types
  *
  * Return: returns 0 if the program exits properly, otherwise non-zero
  */
@@ -20,4 +20,4 @@ int main(void)
 	printf("Size of a float: %lu byte\(s)\n", sizeof(floatType));
 
 	return (0);
-}	
+}
