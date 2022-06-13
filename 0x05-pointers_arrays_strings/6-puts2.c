@@ -7,7 +7,7 @@
  * @str: the string to be checked
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 	int len, i;
 
