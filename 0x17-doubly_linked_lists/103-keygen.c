@@ -35,17 +35,7 @@ int f4(char *usrn, int len)
  * f5 - multiplies each char of username
  *
  * @usrn: username
- * @len: length oents count
- * @argv: arguments vector
- * Return: Always 0
- */
-int main(int argc, char **argv)
-{
-	char keygen[7];
-	int len, ch, vch;
-	long alph[] = {
-		0x3877445248432d41, 0x42394530534e6c37, 0x4d6e706762695432,
-		0x74767a5835737956, 0x2b554c59634a474f, 0x7f username
+ * @len: length of username
  * Return: multiplied char
  */
 int f5(char *usrn, int len)
@@ -89,7 +79,17 @@ int f6(char *usrn)
 /**
  * main - Entry point
  *
- * @argc: argum1786636576a6d34,
+ * @argc: arguments count
+ * @argv: arguments vector
+ * Return: Always 0
+ */
+int main(int argc, char **argv)
+{
+	char keygen[7];
+	int len, ch, vch;
+	long alph[] = {
+		0x3877445248432d41, 0x42394530534e6c37, 0x4d6e706762695432,
+		0x74767a5835737956, 0x2b554c59634a474f, 0x71786636576a6d34,
 		0x723161513346655a, 0x6b756f494b646850 };
 	(void) argc;
 
